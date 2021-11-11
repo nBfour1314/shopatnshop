@@ -71,7 +71,7 @@
 				if ($pic['size'] <= 614400) {
 					$sq = "SELECT * from public.product where product_id='$id' or product_name='$proname'";
 					$result = pg_query($conn, $sq);
-					if (pg_num_rows($result) == 0) {
+					if (pg_num_rows($result) == 0)/*kiem tra id san phan, neu khong se them vao*/ {
 						copy($pic['tmp_name'], "./tree/img/" . $pic['name']);
 						$_filePic = $pic['name'];
 						$sqlstring = "INSERT INTO product (product_id, product_name, price, oldprice, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id , shop_id) 
