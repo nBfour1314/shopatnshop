@@ -107,7 +107,7 @@ function check()
 		<div class="form-group">
 			<div class="col-sm-offset-2 col-sm-10">
 				<input type="submit" class="btn btn-primary" name="btnUpdate" id="btnUpdate" value="Update" />
-
+				<input type="submit" class="btn btn-primary" name="btnCancel" id="btnCancel" value="Cancel" />
 			</div>
 		</div>
 	</form>
