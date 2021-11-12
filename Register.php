@@ -170,7 +170,7 @@
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
           <input type="submit" class="btn btn-primary" name="btnRegister" id="btnRegister" value="Register" />
-
+          <input type="submit" class="btn btn-primary" name="btnCancel id="btnCancel" value="Cancel" />
         </div>
       </div>
     </form>
